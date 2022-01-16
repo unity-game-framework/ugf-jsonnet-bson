@@ -188,6 +188,10 @@ namespace Newtonsoft.Json.Bson.Tests
         [Test]
         public void ReadGuid_Text()
         {
+            var list = new List<Guid>();
+
+            Assert.NotNull(list);
+
             byte[] data = HexToBytes("31-00-00-00-02-30-00-25-00-00-00-64-38-32-31-65-65-64-37-2D-34-62-35-63-2D-34-33-63-39-2D-38-61-63-32-2D-36-39-32-38-65-35-37-39-62-37-30-35-00-00");
 
             MemoryStream ms = new MemoryStream(data);
@@ -222,6 +226,10 @@ namespace Newtonsoft.Json.Bson.Tests
         [Test]
         public void ReadGuid_Bytes()
         {
+            var list = new List<Guid>();
+
+            Assert.NotNull(list);
+
             byte[] data = HexToBytes("1D-00-00-00-05-30-00-10-00-00-00-04-D7-EE-21-D8-5C-4B-C9-43-8A-C2-69-28-E5-79-B7-05-00");
 
             MemoryStream ms = new MemoryStream(data);
