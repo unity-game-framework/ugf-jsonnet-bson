@@ -1,4 +1,8 @@
-﻿#region License
+﻿#define HAVE_ASYNC
+#define HAVE_BIG_INTEGER
+#define HAVE_DATE_TIME_OFFSET
+
+#region License
 // Copyright (c) 2017 James Newton-King
 //
 // Permission is hereby granted, free of charge, to any person
@@ -51,7 +55,7 @@ namespace Newtonsoft.Json.Bson
                 _currentElementType = typeReadTask.Result;
                 return ReadStringAsync(cancellationToken);
             }
-            
+
             return ReadElementAsync(typeReadTask, cancellationToken);
         }
 

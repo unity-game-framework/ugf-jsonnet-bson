@@ -1,4 +1,6 @@
-﻿using System;
+﻿#define HAVE_GUID_TRY_PARSE
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

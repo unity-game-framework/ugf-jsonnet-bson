@@ -1,4 +1,7 @@
-﻿#region License
+﻿#define HAVE_ASYNC
+#define HAVE_STREAM_READER_WRITER_CLOSE
+
+#region License
 // Copyright (c) 2017 James Newton-King
 //
 // Permission is hereby granted, free of charge, to any person

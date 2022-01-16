@@ -1,3 +1,8 @@
+#define HAVE_ASYNC
+#define HAVE_BIG_INTEGER
+#define HAVE_CHAR_TO_STRING_WITH_CULTURE
+#define HAVE_DATE_TIME_OFFSET
+
 #region License
 // Copyright (c) 2017 James Newton-King
 //
