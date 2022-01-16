@@ -1,0 +1,19 @@
+{
+    "name": "Newtonsoft.JsonNet.Bson.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bad5a970b947ebb4f9ff8e654328f349"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

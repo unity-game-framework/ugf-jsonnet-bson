@@ -1,7 +1,10 @@
 {
     "name": "UGF.JsonNet.Bson.Runtime",
     "rootNamespace": "UGF.JsonNet.Bson.Runtime",
-    "references": [],
+    "references": [
+        "GUID:bad5a970b947ebb4f9ff8e654328f349",
+        "GUID:63a84d759dbdad34287768b1f164c241"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
