@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.ugf.package.name": {
-      "version": "file:Package",
+    "com.ugf.jsonnet.bson": {
+      "version": "file:UGF.JsonNet.Bson",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
