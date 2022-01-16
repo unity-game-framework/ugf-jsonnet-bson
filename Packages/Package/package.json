@@ -1,20 +1,20 @@
 {
-  "name": "com.ugf.package.name",
-  "displayName": "UGF.Package.Name",
+  "name": "com.ugf.jsonnet.bson",
+  "displayName": "UGF.JsonNet.Bson",
   "version": "0.0.0-preview",
   "unity": "2021.2",
   "apiCompatibility": ".NET Standard 2.1",
-  "description": "No description.",
+  "description": "Provides runtime integration of JsonNet.Bson",
   "author": {
     "name": "Unity Game Framework",
     "url": "https://github.com/unity-game-framework"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/unity-game-framework/ugf-jsonnet-bson.git"
   },
-  "changelogUrl": "",
-  "licensesUrl": "",
+  "changelogUrl": "https://github.com/unity-game-framework/ugf-jsonnet-bson/blob/main/changelog.md",
+  "licensesUrl": "https://github.com/unity-game-framework/ugf-jsonnet-bson/blob/main/license",
   "publishConfig": {
     "registry": "https://unitygameframework.jfrog.io/artifactory/api/npm/default"
   },
