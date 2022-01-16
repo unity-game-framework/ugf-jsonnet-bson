@@ -42,6 +42,7 @@ using Assert = Newtonsoft.Json.Bson.Tests.XUnitAssert;
 using XAssert = Xunit.Assert;
 #else
 using NUnit.Framework;
+using UnityEngine;
 #endif
 using System.Collections;
 #if !(NET20 || NET35 || NET40 || PORTABLE40)
@@ -213,7 +214,7 @@ namespace Newtonsoft.Json.Bson.Tests
         public static string ResolvePath(string path)
         {
 #if !DNXCORE50
-            return Path.Combine(TestContext.CurrentContext.TestDirectory, path);
+            return Path.Combine(Application.streamingAssetsPath, path);
 #else
             return path;
 #endif
