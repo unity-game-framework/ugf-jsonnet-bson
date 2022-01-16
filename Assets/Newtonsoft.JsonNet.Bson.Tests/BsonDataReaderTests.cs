@@ -217,7 +217,7 @@ namespace Newtonsoft.Json.Bson.Tests
             reader.ReadRootValueAsArray = true;
 
             JsonSerializer serializer = new JsonSerializer();
-            IList<Guid> l = serializer.Deserialize<IList<Guid>>(reader);
+            IList<Guid> l = serializer.Deserialize<List<Guid>>(reader);
 
             Assert.AreEqual(1, l.Count);
             Assert.AreEqual(new Guid("D821EED7-4B5C-43C9-8AC2-6928E579B705"), l[0]);
@@ -257,7 +257,7 @@ namespace Newtonsoft.Json.Bson.Tests
             reader.ReadRootValueAsArray = true;
 
             JsonSerializer serializer = new JsonSerializer();
-            IList<Guid> l = serializer.Deserialize<IList<Guid>>(reader);
+            IList<Guid> l = serializer.Deserialize<List<Guid>>(reader);
 
             Assert.AreEqual(1, l.Count);
             Assert.AreEqual(g, l[0]);
