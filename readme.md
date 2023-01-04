@@ -2,15 +2,15 @@
 
 UGF.JsonNet.Bson
 
-## Info
+## Information
 
-- **Version**: `1.0.0-preview`
-- **Unity**: `2021.2`
+- **Version**: `1.0.0`
+- **Unity**: `2022.2`
 - **API Compatibility Level**: `.NET Standard 2.1`
 
 ### Dependencies
 
-- `com.ugf.jsonnet`: `1.4.0`
+- `com.ugf.jsonnet`: `1.5.0`
 
 
 ### Description
