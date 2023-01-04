@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.ugf.coroutines": "1.0.0",
+    "com.ugf.coroutines": "1.1.0",
     "com.unity.ide.rider": "3.0.17",
     "com.unity.test-framework": "1.1.33"
   },
