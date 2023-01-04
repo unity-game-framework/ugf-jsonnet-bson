@@ -17,11 +17,11 @@
       "url": "https://unitygameframework.jfrog.io/artifactory/api/npm/default"
     },
     "com.ugf.jsonnet": {
-      "version": "1.4.0",
+      "version": "1.5.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.2"
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
       "url": "https://unitygameframework.jfrog.io/artifactory/api/npm/default"
     },
@@ -30,7 +30,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.ugf.jsonnet": "1.4.0"
+        "com.ugf.jsonnet": "1.5.0"
       }
     },
     "com.unity.ext.nunit": {
