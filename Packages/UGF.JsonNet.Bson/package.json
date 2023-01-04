@@ -2,7 +2,7 @@
   "name": "com.ugf.jsonnet.bson",
   "displayName": "UGF.JsonNet.Bson",
   "version": "1.0.0-preview",
-  "unity": "2021.2",
+  "unity": "2022.2",
   "apiCompatibility": ".NET Standard 2.1",
   "description": "Provides runtime integration of JsonNet.Bson",
   "author": {
